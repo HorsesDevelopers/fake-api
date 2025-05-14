@@ -18,6 +18,7 @@
     "pondDetails": [
         {
             "id": 1,
+            "name": "River Pond",
             "ubication": "Lima Peru",
             "waterType": "Type1",
             "volume": 50,
