@@ -5,7 +5,7 @@
             "name": "River Pond",
             "sensorQuantity": 5,
             "fishQuantity": 10,
-            "imageUrl": "http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR47RwYBK1ziQnG83lOS_2zYAgLVnK9QlcRbg&s"
+            "imageUrl": "https://i.pinimg.com/736x/12/40/10/124010d20b4b3bd2c286b8dbba384cd3.jpg"
         },
         {
             "id": 2,
@@ -19,6 +19,7 @@
         {
             "id": 1,
             "name": "River Pond",
+            "imageUrl": "https://i.pinimg.com/736x/12/40/10/124010d20b4b3bd2c286b8dbba384cd3.jpg",
             "ubication": "Lima Peru",
             "waterType": "Type1",
             "volume": 50,
