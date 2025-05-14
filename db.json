@@ -4,13 +4,15 @@
             "id": 1,
             "name": "River Pond",
             "sensorQuantity": 5,
-            "fishQuantity": 10
+            "fishQuantity": 10,
+            "imageUrl": "http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR47RwYBK1ziQnG83lOS_2zYAgLVnK9QlcRbg&s"
         },
         {
             "id": 2,
             "name": "Home Pond",
             "sensorQuantity": 2,
-            "fishQuantity": 3
+            "fishQuantity": 3,
+            "imageUrl": "https://www.globalseafood.org/wp-content/uploads/2018/11/BOYD-WATER-TEMP-Pic-0.jpg"
         }
     ],
     "pondDetails": [
