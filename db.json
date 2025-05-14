@@ -1,0 +1,101 @@
+{
+    "ponds": [
+        {
+            "id": 1,
+            "name": "River Pond",
+            "sensorQuantity": 5,
+            "fishQuantity": 10
+        },
+        {
+            "id": 2,
+            "name": "Home Pond",
+            "sensorQuantity": 2,
+            "fishQuantity": 3
+        }
+    ],
+    "pondDetails": [
+        {
+            "id": 1,
+            "ubication": "Lima Peru",
+            "waterType": "Type1",
+            "volume": 50,
+            "size": 40,
+            "createdAt": "14/05/2025",
+            "fishPerTypeQuantity": {
+                "Tilapia": 11,
+                "Salmon": 5,
+                "Cabrilla": 6
+            },
+            "fish": [
+                {
+                    "id": 1,
+                    "type": "Tilapia",
+                    "quantity": 10,
+                    "joinedAt": "14/05/2025"
+                },
+                {
+                    "id": 2,
+                    "type": "Tilapia",
+                    "quantity": 1,
+                    "joinedAt": "14/05/2025"
+                },
+                {
+                    "id": 3,
+                    "type": "Salmon",
+                    "quantity": 5,
+                    "joinedAt": "14/05/2025"
+                },
+                {
+                    "id": 4,
+                    "type": "Cabrilla",
+                    "quantity": 6,
+                    "joinedAt": "14/05/2025"
+                }
+            ],
+            "sensors": [
+                {
+                    "pond": "Pond 1",
+                    "oxygen": 6.5,
+                    "nytrogen": 3.1,
+                    "temperature": "24 °C",
+                    "status": "Connected"
+                },
+                {
+                    "pond": "Pond 2",
+                    "oxygen": 7.5,
+                    "nytrogen": 2.1,
+                    "temperature": "25 °C",
+                    "status": "Disconnected"
+                },
+                {
+                    "pond": "Pond 3",
+                    "oxygen": 8.5,
+                    "nytrogen": 6.1,
+                    "temperature": "21 °C",
+                    "status": "Connected"
+                }
+
+            ],
+            "food": [
+                {
+                    "name": "TetraMin Tropical Flakes",
+                    "brand": "Tetra",
+                    "quantity": 20,
+                    "date": "01/05/2025"
+                },
+                {
+                    "name": "Pellets Flotante",
+                    "brand": "National Pellets",
+                    "quantity": 150,
+                    "date": "30/04/2025"
+                },
+                {
+                    "name": "TetraMin Flakes",
+                    "brand": "Tetra",
+                    "quantity": 15,
+                    "date": "02/05/2025"
+                }
+            ]
+        }
+    ]
+}
