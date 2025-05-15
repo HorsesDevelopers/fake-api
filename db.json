@@ -58,18 +58,129 @@
             ],
             "food": [
                 {
+                    "id": 1,
                     "name": "TetraMin Tropical Flakes",
                     "brand": "Tetra",
                     "quantity": 20,
                     "date": "01/05/2025"
                 },
                 {
+                    "id": 2,
                     "name": "Pellets Flotante",
                     "brand": "National Pellets",
                     "quantity": 150,
                     "date": "30/04/2025"
                 },
                 {
+                    "id": 3,
+                    "name": "TetraMin Flakes",
+                    "brand": "Tetra",
+                    "quantity": 15,
+                    "date": "02/05/2025"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Home pond",
+            "imageUrl": "https://www.globalseafood.org/wp-content/uploads/2018/11/BOYD-WATER-TEMP-Pic-0.jpg",
+            "ubication": "Lima Peru",
+            "waterType": "Type2",
+            "volume": 20,
+            "size": 10,
+            "createdAt": "14/05/2025",
+            "fishPerTypeQuantity": {
+                "Tilapia": 3,
+                "Salmon": 1
+            },
+            "fish": [
+                {
+                    "id": 1,
+                    "type": "Tilapia",
+                    "quantity": 3,
+                    "joinedAt": "14/05/2025"
+                },
+                {
+                    "id": 2,
+                    "type": "Salmon",
+                    "quantity": 1,
+                    "joinedAt": "14/05/2025"
+                }
+            ],
+            "food": [
+                {
+                    "id": 1,
+                    "name": "TetraMin Tropical Flakes",
+                    "brand": "Tetra",
+                    "quantity": 20,
+                    "date": "01/05/2025"
+                },
+                {  
+                    "id": 2,
+                    "name": "Pellets Flotante",
+                    "brand": "National Pellets",
+                    "quantity": 150,
+                    "date": "30/04/2025"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Pond 3",
+            "imageUrl": "https://i.pinimg.com/736x/12/40/10/124010d20b4b3bd2c286b8dbba384cd3.jpg",
+            "ubication": "Lima Peru",
+            "waterType": "Type1",
+            "volume": 50,
+            "size": 40,
+            "createdAt": "14/05/2025",
+            "fishPerTypeQuantity": {
+                "Tilapia": 11,
+                "Salmon": 5,
+                "Cabrilla": 6
+            },
+            "fish": [
+                {
+                    "id": 1,
+                    "type": "Tilapia",
+                    "quantity": 10,
+                    "joinedAt": "14/05/2025"
+                },
+                {
+                    "id": 2,
+                    "type": "Tilapia",
+                    "quantity": 1,
+                    "joinedAt": "14/05/2025"
+                },
+                {
+                    "id": 3,
+                    "type": "Salmon",
+                    "quantity": 5,
+                    "joinedAt": "14/05/2025"
+                },
+                {
+                    "id": 4,
+                    "type": "Cabrilla",
+                    "quantity": 6,
+                    "joinedAt": "14/05/2025"
+                }
+            ],
+            "food": [
+                {
+                    "id": 1,
+                    "name": "TetraMin Tropical Flakes",
+                    "brand": "Tetra",
+                    "quantity": 20,
+                    "date": "01/05/2025"
+                },
+                {
+                    "id": 2,
+                    "name": "Pellets Flotante",
+                    "brand": "National Pellets",
+                    "quantity": 150,
+                    "date": "30/04/2025"
+                },
+                {
+                    "id": 3,
                     "name": "TetraMin Flakes",
                     "brand": "Tetra",
                     "quantity": 15,
@@ -146,6 +257,12 @@
             "id": 2,
             "pond_id": 2,
             "status": "Disconnected",
+            "lastDispense": "14/05/2025"
+        },
+        {
+            "id": 3,
+            "pond_id": 3,
+            "status": "Connected",
             "lastDispense": "14/05/2025"
         }
     ]
