@@ -101,5 +101,35 @@
                 }
             ]
         }
+    ],
+    "schedules": [
+        {
+            "id": 1,
+            "pondName": "Tilapias 1",
+            "food": "Peletes 10Kg",
+            "size": 10,
+            "status": "Created"
+        },
+        {
+            "id": 2,
+            "pondName": "Salmones 1",
+            "food": "Peletes 15Kg",
+            "size": 16,
+            "status": "Created"
+        },
+        {
+            "id": 3,
+            "pondName": "Tilapias 2",
+            "food": "Peletes 11Kg",
+            "size": 8,
+            "status": "created"
+        },
+        {
+            "id": 4,
+            "pondName": "Salmones 2",
+            "food": "Peletes 14Kg",
+            "size": 17,
+            "status": "Created"
+        }
     ]
 }
