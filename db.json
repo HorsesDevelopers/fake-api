@@ -265,5 +265,64 @@
             "status": "Connected",
             "lastDispense": "14/05/2025"
         }
-    ]
+    ],
+    "pendingSchedules": {
+        "staff": [
+            {
+                "id": 1,
+                "name": "Tech 1",
+                "status": "Finshing Task",
+                "price": "Free"
+            },
+            {
+                "id": 2,
+                "name": "Tech 2",
+                "status": "Break",
+                "price": "Free"
+            },
+            {
+                "id": 3,
+                "name": "Tech 3",
+                "status": "Free",
+                "price": "Free"
+            }
+        ],
+        "pendings": [
+            {
+                "id": 1,
+                "description": "Water in bad condition",
+                "staffId": null,
+                "status": null,
+                "alertColor": "red"
+            },
+            {
+                "id": 2,
+                "description": "High Priority",
+                "staff_id": 1,
+                "status": "Not Started",
+                "alertColor": "orange"
+            },
+            {
+                "id": 3,
+                "description": "Medium Priority",
+                "staff_id": 2,
+                "status": "Started",
+                "alertColor": "yellow"
+            },
+            {
+                "id": 4,
+                "description": "Low Priority",
+                "staff_id": 1,
+                "status": "Completed",
+                "alertColor": "green"
+            },
+            {
+                "id": 5,
+                "description": "Water in bad condition",
+                "staff_id": 3,
+                "status": "Started",
+                "alertColor": "orange"
+            }
+        ]
+    }
 }
