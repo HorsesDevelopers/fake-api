@@ -1,15 +1,15 @@
 {
-    "ponds": [
+    "pond_ids": [
         {
             "id": 1,
-            "name": "River Pond",
+            "name": "River pond",
             "sensorQuantity": 5,
             "fishQuantity": 10,
             "imageUrl": "https://i.pinimg.com/736x/12/40/10/124010d20b4b3bd2c286b8dbba384cd3.jpg"
         },
         {
             "id": 2,
-            "name": "Home Pond",
+            "name": "Home pond",
             "sensorQuantity": 2,
             "fishQuantity": 3,
             "imageUrl": "https://www.globalseafood.org/wp-content/uploads/2018/11/BOYD-WATER-TEMP-Pic-0.jpg"
@@ -18,7 +18,7 @@
     "pondDetails": [
         {
             "id": 1,
-            "name": "River Pond",
+            "name": "River pond",
             "imageUrl": "https://i.pinimg.com/736x/12/40/10/124010d20b4b3bd2c286b8dbba384cd3.jpg",
             "ubication": "Lima Peru",
             "waterType": "Type1",
@@ -58,27 +58,44 @@
             ],
             "sensors": [
                 {
-                    "pond": "Pond 1",
+                    "id": 1,
+                    "pond_id": 1,
                     "oxygen": 6.5,
                     "nytrogen": 3.1,
                     "temperature": "24 °C",
                     "status": "Connected"
                 },
                 {
-                    "pond": "Pond 2",
+                    "id": 2,
+                    "pond_id": 2,
                     "oxygen": 7.5,
                     "nytrogen": 2.1,
                     "temperature": "25 °C",
                     "status": "Disconnected"
                 },
                 {
-                    "pond": "Pond 3",
+                    "id": 3,
+                    "pond_id": 3,
                     "oxygen": 8.5,
                     "nytrogen": 6.1,
                     "temperature": "21 °C",
                     "status": "Connected"
                 }
 
+            ],
+            "dispenser":[
+                {
+                    "id": 1,
+                    "pond_id": 1,
+                    "status": "Connected",
+                    "lastDispense": "14/05/2025"
+                },
+                {
+                    "id": 2,
+                    "pond_id": 2,
+                    "status": "Disconnected",
+                    "lastDispense": "14/05/2025"
+                }
             ],
             "food": [
                 {
@@ -102,4 +119,5 @@
             ]
         }
     ]
+
 }
