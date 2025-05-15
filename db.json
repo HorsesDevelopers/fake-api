@@ -1,5 +1,5 @@
 {
-    "pond_ids": [
+    "pond": [
         {
             "id": 1,
             "name": "River pond",
@@ -56,47 +56,6 @@
                     "joinedAt": "14/05/2025"
                 }
             ],
-            "sensors": [
-                {
-                    "id": 1,
-                    "pond_id": 1,
-                    "oxygen": 6.5,
-                    "nytrogen": 3.1,
-                    "temperature": "24 °C",
-                    "status": "Connected"
-                },
-                {
-                    "id": 2,
-                    "pond_id": 2,
-                    "oxygen": 7.5,
-                    "nytrogen": 2.1,
-                    "temperature": "25 °C",
-                    "status": "Disconnected"
-                },
-                {
-                    "id": 3,
-                    "pond_id": 3,
-                    "oxygen": 8.5,
-                    "nytrogen": 6.1,
-                    "temperature": "21 °C",
-                    "status": "Connected"
-                }
-
-            ],
-            "dispenser":[
-                {
-                    "id": 1,
-                    "pond_id": 1,
-                    "status": "Connected",
-                    "lastDispense": "14/05/2025"
-                },
-                {
-                    "id": 2,
-                    "pond_id": 2,
-                    "status": "Disconnected",
-                    "lastDispense": "14/05/2025"
-                }
-            ],
             "food": [
                 {
                     "name": "TetraMin Tropical Flakes",
@@ -148,6 +107,46 @@
             "size": 17,
             "status": "Created"
         }
-    ]
+    ],
+    "sensors": [
+        {
+            "id": 1,
+            "pond_id": 1,
+            "oxygen": 6.5,
+            "nytrogen": 3.1,
+            "temperature": "24 °C",
+            "status": "Connected"
+        },
+        {
+            "id": 2,
+            "pond_id": 2,
+            "oxygen": 7.5,
+            "nytrogen": 2.1,
+            "temperature": "25 °C",
+            "status": "Disconnected"
+        },
+        {
+            "id": 3,
+            "pond_id": 3,
+            "oxygen": 8.5,
+            "nytrogen": 6.1,
+            "temperature": "21 °C",
+            "status": "Connected"
+        }
 
+    ],
+    "dispenser":[
+        {
+            "id": 1,
+            "pond_id": 1,
+            "status": "Connected",
+            "lastDispense": "14/05/2025"
+        },
+        {
+            "id": 2,
+            "pond_id": 2,
+            "status": "Disconnected",
+            "lastDispense": "14/05/2025"
+        }
+    ]
 }
